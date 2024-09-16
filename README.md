@@ -9,6 +9,7 @@ This repository contains SQL scripts used for managing and administering databas
     - Includes scripts for tasks like backup, restoration, indexing, and optimizing the performance of databases.
 - **Security Management**:
     - SQL scripts that help manage user permissions, roles, and access controls to enhance database security.
+        - *DDLTrg_AuditDisable.sql - A DDL trigger on the database that prevents the deletion of user-created triggers by automatically rolling back any DROP TRIGGER operations.*
 - **Performance Monitoring**:
     - Scripts for querying server health, monitoring system resource usage, and diagnosing performance bottlenecks.
 - **Error and Log Analysis**:
